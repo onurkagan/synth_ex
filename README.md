@@ -1,16 +1,8 @@
-# synth_ex
+The application will be a simple synthesizer application.  There will be no virtual midi keyboard support because this is not a practical solution. The app should work like a synthesizer with a connected midi keyboard. So it should be usable with devices like sound cards. The aux output option seems wise for this. 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Goals:
+- [ ] Using synth via midi api.
+- [ ] An easy to use synth library.
+- [ ] To be able to edit the synth settings from the application.
+- [ ] Output option for effectors and sound cards.
+<img src="https://media4.giphy.com/media/HUlRqqImjJAHP7jtfa/giphy.gif">
