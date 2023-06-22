@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:synth_ex/midi_devices.dart';
+import 'package:synth_ex/view/play_sf2.dart';
 import 'package:synth_ex/view_model/midi_devices_vm.dart';
 
 void main() {
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
           useMaterial3: true,
         ),
-        home: const MidiDevices(),
+        home: const PlaySF2(),
       ),
     );
   }
